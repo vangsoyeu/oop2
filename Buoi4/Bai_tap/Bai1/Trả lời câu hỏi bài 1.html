@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1: Xây dựng hướng dẫn đọc lớp FileReader trong Java</title>
+</head>
+<body>
+    <p>Câu 1: Lớp FileReader được kế thừa từ lớp InputStreamReader</p>
+    <p>Câu 2: Lớp FileReader không được thực thi từ những interface</p>
+    <p>Câu 3: Mục đích của lớp FileReader là để đọc các luồng ký tự, các luồng byte thô, hay cân nhắc sử dụng FileInputStream.</p>
+    <p>Câu 4: Lớp FileReader có 3 phương thức khởi tạo:
+        - FileReader(File file): Cung cấp tệp để đọc từ;
+        - FileReader(FileDescriptor fd): Cung cấp FileDescriptor để đọc từ đó;
+        - FileReader(String fileName): Cung cấp tên của tệp để đọc từ đó;</p>
+    <p>Câu 5: Các phương thức thường dùng trong lớp FileReader là:
+        - read(): đọc 1 ký tự.
+        - read(char[] cbuf, int offset, int length): đọc các ký tự trong 1 mảng.
+        - ready(): cho biết luồng đã sẵn sàng để được đọc hay chưa.
+        - close(): đóng luồng và giải phóng mọi tài nguyên hệ thống được liên kết với luồng đó.</p>
+</body>
+</html>
